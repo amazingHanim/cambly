@@ -1,0 +1,175 @@
+.content05_wrap {
+}
+
+
+
+.content05_inner {
+    width: 1480px;
+        margin: 0 auto;
+       padding: 120px 0px;
+
+}
+
+.content05_inner .content {
+        margin-top: 120px;
+
+}
+
+ul.class_list {}
+
+/*접혀있는 것*/
+ul.class_list li.cls {
+    width: 355px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+
+ul.class_list li.cls:last-of-type {
+    margin-right: 0px;
+}
+
+ul.class_list li.cls::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 105px;
+    height: 1px;
+    background-color: #fff;
+    bottom: 200px;
+    left: 125px;
+
+}
+
+ul.class_list li.cls .thumb {
+    border-radius: 100px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-left: 77px;
+    margin-top: 120px;
+}
+
+ul.class_list li.cls .thumb img {
+
+    width: 100%;
+
+}
+
+.cls_name {
+    text-align: center;
+    margin-top: 120px;
+    font: 600 21px/40px 'Noto Sans';
+    color: #fff;
+
+}
+
+.c1 {
+    background-color: #14875b;
+}
+
+.c2 {
+    background-color: #ee6a59
+}
+
+.c3 {
+    background-color: #54abaf
+}
+
+ul.class_list li.cls .cls_tit,
+ul.class_list li.cls .cls_txt,
+ul.class_list li.cls .btn {
+
+    display: none;
+}
+
+/*display on*/
+
+ul.class_list li.on {
+    background-color: transparent;
+    width: 730px;
+    background-image: url(../images/content05_curri_01%20copy.jpg)
+}
+
+ul.class_list li.on:nth-of-type(2) {
+    background-color: transparent;
+    width: 730px;
+    background-image: url(../images/content05_curri_03%20copy.jpg)
+}
+
+ul.class_list li.on:nth-of-type(3) {
+    background-color: transparent;
+    width: 730px;
+    background-image: url(../images/content05_curri_02%20copy.jpg)
+}
+
+
+ul.class_list li.on .cls_inner {
+    width: 490px;
+    height: 400px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+}
+
+ul.class_list li.on .cls_tit {
+    display: block;
+    text-align: right;
+    font: 600 18px/40px 'Noto Sans';
+    color: #fff;
+    letter-spacing: 4px;
+    
+
+
+}
+
+ul.class_list li.on .cls_name {
+    display: block;
+    text-align: right;
+    font: 600 30px/40px 'Noto Sans';
+    margin-top: 0px;
+
+
+}
+
+ul.class_list li.on .cls_txt {
+    display: block;
+    text-align: right;
+    font: 600 18px/30px 'Noto Sans';
+    color: #fff;
+    margin-top: 80px;
+}
+
+ul.class_list li.on .btn {
+    display: inline-block;
+    margin:60px 0px 0px 10px;
+   
+}
+ul.class_list li.on .btn_white {
+    background-color: rgba(255,255,255,0.9); 
+        border:solid 1px #fff;
+
+}
+
+ul.class_list li.on .btn_white a{
+    color: #3e3e3e; 
+}
+ul.class_list li.on .btn_black {
+     margin-left: 110px;
+    border:solid 1px #fff;
+    background-color: rgba(0,0,0,0.5);
+/*    box-sizing: border-box;*/
+}
+
+
+
+ul.class_list li.on .thumb,
+ul.class_list li.on::after {
+    content: "";
+    display: none;
+}

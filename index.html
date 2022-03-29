@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="XEIcon-2.2.0/xeicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    <script src="index.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="htop_wrap">
+            <div class="htop inr">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hbtm_wrap">
+            <div class="hbtm inr">
+                <div class="left">
+                    <h1 class="logo"><img src="images/logo.png" alt=""><a href="#"></a></h1>
+                    <ul>
+                        <li><a href="#">내 강의실</a></li>
+                        <li><a href="#">튜터</a></li>
+                        <li><a href="#">커리큘럼</a></li>
+                        <li><a href="#">Q&A</a></li>
+                    </ul>
+                </div>
+                <ul class="right">
+                    <li>
+                        <a href=""><i class="xi-message-o"></i></a>
+                    <li>
+                    <li>
+                        <a href=""><i class="xi-heart-o"></i></a>
+                    <li>
+                    <li>
+                        <a href=""><i class="xi-search"></i></a>
+                    <li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="banner_inner inr">
+            <div class="txt">
+                <p class="wel">Welcome back, OOO !</p>
+                <p>Day 33 / 120</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="content01_wrap">
+            <div class="content01_inner inr">
+                <ul id="recent_tutor_list">
+                    <li class="recent_tutor">
+                        <div class="tutor_icon">
+                            <div class="flag">
+                                <img src="images/country_IE.png" alt="국기">
+                            </div>
+                            <div class="tut">
+                                <img src="images/butcher.svg" alt="튜터">
+                            </div>
+                        </div>
+                        <p>MON<br>9:00AM</p>
+                        <div class="btn_white"><a href="#">복습하기</a></div>
+                    </li>
+                    <li class="recent_tutor">
+                        <div class="tutor_icon">
+                            <div class="flag">
+                                <img src="images/country_IE.png" alt="국기">
+                            </div>
+                            <div class="tut">
+                                <img src="images/editor.png" alt="튜터">
+                            </div>
+                        </div>
+                        <p>WED<br>10:00AM</p>
+                        <div class="btn_white"><a href="#">복습하기</a></div>
+                    </li>
+                    <li class="recent_tutor">
+                        <div class="tutor_icon">
+                            <div class="flag">
+                                <img src="images/country_IE.png" alt="국기">
+                            </div>
+                            <div class="tut">
+                                <img src="images/trainers.svg" alt="튜터">
+                            </div>
+                        </div>
+                        <p>FRI<br>1:30PM</p>
+                        <div class="btn_white"><a href="#">복습하기</a></div>
+                    </li>
+                </ul>
+                <div id="btn_wrap">
+                    <!--                       frame-->
+
+                    <p>학습시작</p>
+                    <div class="start_btn">
+                        <img src="images/play_btn.svg">
+                    </div>
+                    <a href="#">
+                        <div class="start_btn_bg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content02_wrap">
+            <div class="content02_inner inr">
+                <div id="most_tutor">
+                    <h2 class="title">제일 많이 만난 튜터</h2>
+                    <ul class="tutor_list">
+                        <li class="tutor">
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_ZA.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/trainers.svg" alt="튜터">
+                                </div>
+                            </div>
+                            <div class="tutor_info">
+                                <p class="name">Adam Smith</p>
+                                <p class="country">south Africa</p>
+                                <p class="feat">잘 들어주는</p>
+                            </div>
+                        </li>
+                        <li class="tutor">
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_IE.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/muslim.svg" alt="튜터">
+                                </div>
+                            </div>
+                            <div class="tutor_info">
+                                <p class="name">Adam Smith</p>
+                                <p class="country">south Africa</p>
+                                <p class="feat">잘 들어주는</p>
+
+                            </div>
+                        </li>
+                        <li class="tutor">
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_US.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/man.png" alt="튜터">
+                                </div>
+                            </div>
+                            <div class="tutor_info">
+                                <p class="name">Adam Smith</p>
+                                <p class="country">south Africa</p>
+                                <p class="feat">잘 들어주는</p>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn_white"><a href="#">내 캘린더</a></div>
+                </div>
+                <div class="ct2_right">
+                    <div id="this_month">
+                        <div class="this_month_01 ">
+                            <h2 class="title">이번달 복습율</h2>
+                            <div class="chart">
+                                <div class="graph01 g1">
+                                    <span>평균</span>
+                                    <div class="bg">
+                                        <div class="fr_right fr1"></div>
+                                    </div>
+                                </div>
+                                <div class="graph01 g2">
+                                    <span>지난 30일</span>
+                                    <div class="bg">
+                                        <div class="fr_right fr2"></div>
+                                    </div>
+                                </div>
+                                <div class="graph01 g3">
+                                    <span>이번 30일</span>
+                                    <div class="bg">
+                                        <div class="fr_right fr3"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p>지난 달에 비해서 <span>3회</span> 늘었어요</p>
+                            <a href="#" class="line_btn">아직 복습하지 않은 내용 보러가기</a>
+
+                        </div>
+                        <div class="this_month_02">
+                            <h2 class="title">이번달 학습 시간대</h2>
+                            <ul class="chart">
+                                <li class="graph02">
+                                    <p>01</p>
+                                    <div class="bg"></div>
+                                </li>
+                                <li class="graph02">
+                                    <p>04</p>
+                                    <div class="bg"></div>
+                                </li>
+                                <li class="graph02 ">
+                                    <p>07</p>
+                                    <div class="bg"></div>
+                                </li>
+                                <li class="graph02 g1">
+                                    <!--이거-->
+                                    <p>10</p>
+
+                                    <div class="bg">
+                                        <div class="fr1 fr_left"></div>
+                                    </div>
+
+                                </li>
+                                <li class="graph02">
+                                    <p>12</p>
+                                    <div class="bg"></div>
+                                </li>
+                                <li class="graph02">
+                                    <p>04</p>
+                                    <div class="bg"></div>
+                                </li>
+                                <li class="graph02 g2">
+                                    <!--이거-->
+                                    <p>07</p>
+                                    <div class="bg">
+                                        <div class="fr2 fr_left"></div>
+                                    </div>
+
+                                </li>
+                                <li class="graph02">
+                                    <p>10</p>
+                                    <div class="bg"></div>
+                                </li>
+
+
+
+                            </ul>
+                            <p>오전 <span>7시~9시</span>수업을 선호해요</p>
+                            <a href="#" class="line_btn">해당 시간대 튜터 보러가기</a>
+                        </div>
+                    </div>
+                    <div id="most_prefer">
+                        <h2 class="title">내가 선호하는 튜터 성향</h2>
+                        <ul class="chart">
+                            <li class="g2">
+                                <div>영국식 발음</div>
+                                <div>20대 여성</div>
+                                <div>재미있고 사교적인</div>
+                            </li>
+                            <li class="g3">
+                                <div>영국식 발음</div>
+                                <div>20대 여성</div>
+                                <div>재미있고 사교적인</div>
+                            </li>
+                            <li class="g3">
+                                <div>영국식 발음</div>
+                                <div>20대 여성</div>
+                                <div>재미있고 사교적인</div>
+                            </li>
+                        </ul>
+                        <a href="#" class="line_btn">비슷한 성향의 튜터 보러가기</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content03_wrap">
+            <div class="content03_inner inr">
+                <h2 class="title">나의 커리큘럼</h2>
+
+                <div class="content">
+
+                    <div class="curri_img_frame">
+
+                        <div href="#" class="curri_img_list">
+
+                            <div class="curri_img ci1">
+                                <div href="#" class="curri_txt txt01">
+                                    <p class="class_name">Business English</p>
+                                    <p class="class_info">업무 및 경력에 필요한 영어</p>
+                                </div>
+                            </div>
+                            <div class="curri_img ci2">
+                                <div href="#" class="curri_txt txt02">
+                                    <p class="class_name">Advanced <br> Conversation
+                                        <br>Topics
+                                    </p>
+                                    <p class="class_info">현대 사회 관련 복잡한 주제 둘러보기
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="curri_img ci3">
+                                <div href="#" class="curri_txt txt02">
+                                    <p class="class_name">Movies <br> and Television
+
+                                    </p>
+                                    <p class="class_info">우리 함께 영화, TV 프로그램과 관련된 <br>선호사항과 습관에 대해 얘기해봐요.
+                                    </p>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <a href="#"></a>
+                    </div>
+
+
+                    <div class="curri_info_frame">
+                        <div class="infos">
+                            <div class="curri_info info01">
+                                <div class="curri_left">
+                                    <div class="graph g1">
+                                        <p>40 %</p>
+                                    </div>
+                                </div>
+
+                                <div class="curri_right">
+                                    <div class="total_table">
+                                        <ul class="table tbl_01">
+                                            <li>1. Phone Conversations</li>
+                                            <li>2. Meetings</li>
+                                            <li>3. Negotiations</li>
+                                            <li>4. complains and Conflicts</li>
+                                            <li>5. Job interviews</li>
+                                        </ul>
+                                        <ul class="table tbl_02">
+                                            <li>6. Scheduling and Time Management</li>
+                                            <li>7. Presentations</li>
+                                            <li>8. Work Styles</li>
+                                            <li>9. Management and Leadership</li>
+                                            <li>10. Sales</li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="tut">
+                                        <ul class="tut_list">
+                                            <li><a href="#"><img src="images/designer.svg" alt=""></a>
+                                            </li>
+                                            <li><a href="#"><img src="images/editor.png" alt=""></a>
+                                            </li>
+                                            <li><a href="#"><img src="images/man.png" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curri_info info02">
+                                <div class="curri_left">
+                                    <div class="graph g1">
+                                        <p>25 %</p>
+                                    </div>
+                                </div>
+                                <div class="curri_right">
+                                    <div class="total_table">
+                                        <ul class="table tbl_01">
+                                            <li>1. Food for Thoughts</li>
+                                            <li>2. Developing Your Career </li>
+                                            <li>3. Sports Fanaticism</li>
+                                            <li>4. Exotic Pets</li>
+                                            <li>5. Work-Life Balance</li>
+                                        </ul>
+                                        <ul class="table tbl_02">
+                                            <li>6. Living Your Best Life</li>
+                                            <li>7. Raising Children</li>
+                                            <li>8. Family Dynamics</li>
+                                            <li>9. Community Service</li>
+                                            <li>10. Consumerism</li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="tut">
+                                        <ul class="tut_list">
+                                            <li><a href="#"><img src="images/muslim.svg" alt=""></a>
+                                            </li>
+                                            <li><a href="#"><img src="images/designer.svg" alt=""></a>
+                                            </li>
+                                            <li><a href="#"><img src="images/trainers.svg" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="curri_info info03">
+                                <div class="curri_left">
+                                    <div class="graph g1">
+                                        <p>75 %</p>
+                                    </div>
+                                </div>
+                                <div class="curri_right">
+                                    <div class="total_table">
+                                        <ul class="table tbl_01">
+                                            <li>1. Your Favorite Movie</li>
+                                            <li>2. Your Favorite TV shows </li>
+                                            <li>3. Film Production</li>
+                                            <li>4. The World of Streaming</li>
+                                            <li>5. Competition Shows</li>
+                                        </ul>
+                                        <ul class="table tbl_02">
+                                            <li>6. Reality TV</li>
+                                            <li>7. TV And Movie Characters</li>
+                                            <li>8. Animated Movie And TV Series</li>
+                                            <li>9. Movies around the World</li>
+                                            <li>10. The Future of Entertainment</li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="tut">
+                                        <ul class="tut_list">
+                                            <li><a href="#"><img src="images/butcher.svg" alt=""></a>
+                                            </li>
+                                            <li><a href="#"><img src="images/trainers.svg" alt=""></a>
+                                            </li>
+                                            <li><a href="#"><img src="images/editor.png" alt=""></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="next_btn">
+                        <a href="javascript:void(0)"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content04_wrap">
+            <div class="content04_inner inr">
+                <div class="subject">
+                    <h2 class="title">이 튜터들과 만나보세요!</h2>
+                    <p class="sub_tit">ooo님이 선호한 튜터들과 비슷한 성향을 가진 튜터들이에요.</p>
+                </div>
+
+                <div class="content">
+                    <ul class="tutor_list">
+
+                        <li>
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_IE.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/homeless.svg" alt="튜터">
+                                </div>
+                            </div>
+
+                            <p class="name">Adam Smith</p>
+                            <div class="btn_white"><a href="#">정보보기</a></div>
+                        </li>
+                        <li>
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_GB.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/chinese.svg" alt="튜터">
+                                </div>
+                            </div>
+
+                            <p class="name">Adam Smith</p>
+                            <div class="btn_white"><a href="#">정보보기</a></div>
+                        </li>
+                        <li>
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_united-nations.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/teenager.svg" alt="튜터">
+                                </div>
+                            </div>
+
+                            <p class="name">Adam Smith</p>
+                            <div class="btn_white"><a href="#">정보보기</a></div>
+                        </li>
+                        <li>
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_ZA.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/trainers%20(1).svg" alt="튜터">
+                                </div>
+                            </div>
+
+                            <p class="name">Adam Smith</p>
+                            <div class="btn_white"><a href="#">정보보기</a></div>
+                        </li>
+                        <li>
+                            <div class="tutor_icon">
+                                <div class="flag">
+                                    <img src="images/country_US.png" alt="국기">
+                                </div>
+                                <div class="tut">
+                                    <img src="images/dad.svg" alt="튜터">
+                                </div>
+                            </div>
+
+                            <p class="name">Adam Smith</p>
+                            <div class="btn_white"><a href="#">정보보기</a></div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content05_wrap">
+            <div class="content05_inner inr">
+                <div class="subject">
+                    <h2 class="title">이 커리큘럼은 어때요?</h2>
+                    <p class="sub_tit">ooo님과 비슷한 레벨의 학생들이 선호하는 과정이에요</p>
+                </div>
+                <div class="content">
+                    <ul class="class_list">
+                        <li class="cls c1 on">
+                            <div class="thumb">
+                                <img src="images/content05_curri_01_thumb.jpg" alt="">
+                            </div>
+                            <div class="cls_inner">
+                                <p class="cls_tit">자신을 표현해보세요</p>
+                                <h6 class="cls_name">Caring For Our Planet</h6>
+                                <p class="cls_txt">기후 변화와 환경 문제는 점점 더 전 지구적인
+                                    <br>문제가 되고 있습니다. 이 주제는
+                                    <br>해외 뉴스에 자주 등장하며 여러 국제적인
+                                    <br>산업과 관련됩니다
+                                </p>
+                                <div class="btn_black btn"><a href="#">강의정보</a></div>
+                                <div class="btn_white btn"><a href="#">수강하기</a></div>
+                            </div>
+
+                        </li>
+                        <li class="cls c2">
+                            <div class="thumb">
+                                <img src="images/content05_curri_03_thumb.jpg" alt="">
+                            </div>
+                            <div class="cls_inner">
+                                <p class="cls_tit">유창한 영어의 기본 요소</p>
+                                <h6 class="cls_name">Intermediate Conversation Topics</h6>
+                                <p class="cls_txt">다양한 레슨 주제를 찾고 계신가요?
+                                    <br>이 관련성이 높은 주제 세트로
+                                    <br> 영어 토론에 빠져보세요.
+                                    <div class="btn_black btn"><a href="#">강의정보</a></div>
+                                    <div class="btn_white btn"><a href="#">수강하기</a></div>
+
+                            </div>
+
+
+
+                        </li>
+                        <li class="cls c3">
+                            <div class="thumb">
+                                <img src="images/content05_curri_02_thumb.jpg" alt="">
+                            </div>
+                            <div class="cls_inner">
+                                <p class="cls_tit">경력 개발</p>
+                                <h6 class="cls_name">Advanced Business English</h6>
+                                <p class="cls_txt">Cambly의 고급 비즈니스 영어 코스를 통해
+                                    <br>비즈니스 관련 주제를 논의할 때 필요한
+                                    <br>언어 능력을 습득함으로써
+                                    <br>업무 성과를 향상할 수 있습니다.
+                                </p>
+                                <div class="btn_black btn"><a href="#">강의정보</a></div>
+                                <div class="btn_white btn"><a href="#">수강하기</a></div>
+                            </div>
+
+
+
+
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer_wrap">
+
+
+        <div class="footer_inner inr">
+            <ul class="info">
+
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">TERMS AND CONDITIONS</a></li>
+                <li><a href="#">JOBS</a></li>
+                <li><a href="#">CONTACT</a></li>
+
+
+            </ul>
+            <ul class="nav">
+                <li>
+                    <a href="#"><img src="images/twitter_logo25.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/instagram_logo24.png" alt=""></a>
+                </li>
+
+                <li>
+                    <a href="#"><img src="images/youtube_social_square_red.png" alt=""></a>
+                </li>
+            </ul>
+
+            <div class="copy">
+                <p>CAMBLY INC. © COPYRIGHT 2020. ALL RIGHTS RESERVED.</p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
