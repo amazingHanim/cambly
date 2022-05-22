@@ -1287,9 +1287,7 @@ ul.class_list li.on .btn_white a {
 }
 
 ul.class_list li.on .btn_black {
-    /* border: solid 1px #fff; */
     background-color: rgba(0, 0, 0, 0.8);
-    /*    box-sizing: border-box;*/
 }
 
 
