@@ -76,14 +76,14 @@ a.line_btn:hover {
 
 }
 
-.title {
+h3.title {
     font: 600 30px/80px 'Noto Sans';
     text-align: center;
     color: #3e3e3e;
 }
 
-p.name {
-    font: 800 24px/30px 'Noto Sans';
+h4.name {
+    font: 500 21px/30px 'Noto Sans';
     color: #3e3e3e;
 }
 
@@ -111,7 +111,7 @@ p.country {
 
 
 .btn_black {
-    width: 150px;
+    padding: 0 20px;
     background-color: #333;
     transition: all 0.5s;
 
@@ -125,14 +125,14 @@ p.country {
 .btn_black a {
     display: block;
     color: #fff;
-    font: 500 1.125em/42px 'Noto Sans';
+    font: 500 1.125em/40px 'Noto Sans';
     text-align: center;
 }
 
 
 
 .btn_white {
-    width: 150px;
+    padding: 0 30px;
     background-color: transparent;
     border: solid 1px #333;
     box-sizing: border-box;
@@ -143,7 +143,7 @@ p.country {
 .btn_white a {
     display: block;
     color: #333;
-    font: 500 1.125em/42px 'Noto Sans';
+    font: 500 1.125em/40px 'Noto Sans';
     text-align: center;
 }
 
@@ -316,16 +316,14 @@ body>.content {
 
 }
 
-.banner .wel {
-    font: 600 3.188em/80px 'Acme';
-
-
+.banner h2 {
+    font: 500 3.188em/80px 'Acme';
 }
 
 .banner p {
-    font: 600 2.438em/80px 'Acme';
-    font-weight: 300;
-
+    font: 300 1.875em/80px 'Noto Sans KR';
+    font-weight: 500;
+    opacity: 0.7;
 }
 
 /*content01_wrap*/
@@ -585,17 +583,18 @@ div#most_tutor ul li .tutor_icon .tut img {
 
 
 }
-
+div#most_tutor ul li .tutor_info{
+    margin-top: 20px;
+}
 
 div#most_tutor ul li .tutor_info p.feat {
-    margin-top: 13px;
+    margin-top: 20px;
     background-color: #e7e3d8;
-    width: 196px;
-    height: 38px;
+    padding: 0 20px;
     border-radius: 30px;
     text-align: center;
     color: #999;
-    font: 400 18px/38px 'Noto Sans';
+    font: 400 18px/34px 'Noto Sans';
 
 }
 
@@ -809,7 +808,6 @@ div.this_month_02 a {
 
 .content03_inner {}
 
-.content03_inner h2 {}
 
 .content03_inner .content {
     height: 440px;
@@ -1068,7 +1066,6 @@ ul.tut_list li a img {
     justify-content: center;
 }
 
-.content04_inner h2 {}
 
 p.sub_tit {
     color: #666;
@@ -1211,7 +1208,6 @@ ul.class_list li.cls .thumb img {
 ul.class_list li.cls .cls_tit,
 ul.class_list li.cls .cls_txt,
 ul.class_list li.cls .btn {
-
     display: none;
 }
 
@@ -1222,6 +1218,7 @@ ul.class_list li.on {
     width: 730px;
     background-image: url(../images/content05_curri_01%20copy.jpg)
 }
+
 
 ul.class_list li.on:nth-of-type(2) {
     background-color: transparent;
@@ -1272,26 +1269,26 @@ ul.class_list li.on .cls_txt {
     color: #fff;
     margin-top: 80px;
 }
-
-ul.class_list li.on>.btn {
+ul.class_list li.on .btn{
     display: inline-block;
-    margin: 60px 0px 0px 10px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
-ul.class_list li.on>.btn_white {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: solid 1px #fff;
+ul.class_list li.on .btn_white {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0;
 
 }
 
-ul.class_list li.on>.btn_white a {
+ul.class_list li.on .btn_white a {
     color: #3e3e3e;
 }
 
-ul.class_list li.on>.btn_black {
-    margin-left: 110px;
-    border: solid 1px #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+ul.class_list li.on .btn_black {
+    /* border: solid 1px #fff; */
+    background-color: rgba(0, 0, 0, 0.8);
     /*    box-sizing: border-box;*/
 }
 
